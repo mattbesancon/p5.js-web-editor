@@ -2,11 +2,10 @@
  *           Set-up
  *******************************/
 
-var
-  gulp   = require('gulp'),
+var gulp   = require('gulp'),
 
-  // read user config to know what task to load
-  config = require('./tasks/config/user')
+// read user config to know what task to load
+config = require('./tasks/config/user')
 ;
 
 
