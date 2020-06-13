@@ -53,6 +53,10 @@
   border-bottom-right-radius: @borderRadius;
 }
 
+.ui.modal > .ui.dimmer {
+  border-radius: inherit;
+}
+
 /*******************************
             Content
 *******************************/
@@ -171,7 +175,7 @@
   border-top: @actionBorder;
   text-align: @actionAlign;
 }
-.ui.modal .actions > .button {
+.ui.modal .actions > .button:not(.fluid) {
   margin-left: @buttonDistance;
 }
 .ui.basic.modal > .actions {
@@ -252,7 +256,7 @@
   .ui.modal .image.content {
     flex-direction: column;
   }
-  .ui.modal .content > .image {
+  .ui.modal > .content > .image {
     display: block;
     max-width: 100%;
     margin: 0 auto !important;
@@ -265,7 +269,7 @@
   }
 
   /*rtl:ignore*/
-  .ui.modal .content > .description {
+  .ui.modal > .content > .description {
     display: block;
     width: 100% !important;
     margin: 0 !important;
@@ -309,6 +313,7 @@
   }
   .ui.basic.modal > .header {
     color: @basicModalHeaderColor;
+    border-bottom: none;
   }
   .ui.basic.modal > .close {
     top: @basicModalCloseTop;
