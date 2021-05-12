@@ -146,7 +146,7 @@
     "mongoose": "^5.9.18",
     "natives": "^1.1.6",
     "node-uuid": "^1.4.7",
-    "nodemailer": "^2.6.4",
+    "nodemailer": "^6.4.16",
     "nodemailer-mailgun-transport": "^1.4.0",
     "passport": "^0.3.2",
     "passport-github": "^1.1.0",
