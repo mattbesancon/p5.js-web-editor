@@ -127,7 +127,7 @@
     "dropzone": "^4.3.0",
     "escape-string-regexp": "^1.0.5",
     "eslint-loader": "^2.2.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-basic-auth": "^1.2.0",
     "express-session": "^1.17.1",
     "fomantic-ui": "^2.8.5",
